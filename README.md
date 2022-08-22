@@ -11,19 +11,6 @@ Argon Dashboard Vue 3, ElementUI &amp; TailwindCSS - Inspired by [Creative Tim](
 - [TailwindCSS 3](https://tailwindcss.com)
 - [Vite](https://vitejs.dev)
 
-## Sponsor
-
-LTV Software
-
-![LTV Software](https://s.gravatar.com/avatar/bf6addc65b990260d9ba27bc1bee92b4?s=100)
-
-## Contributors
-
-- [Dung Le](https://github.com/dzunglee)
-- [Phong Le](https://github.com/LeThanhPhongLTV)
-- [Hieu Dang](https://github.com/Trung-Hieu-Dev)
-- [Kha Huynh](https://github.com/khaht)
-
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
