@@ -3,17 +3,7 @@
     <el-card class="bg-secondary text-center pb-6">
       <template #header>
         <div class="text-muted text-center mt-2 mb-4">
-          <small class="text-90">Sign in with</small>
-        </div>
-        <div class="pb-6 flex flex-nowrap text-center justify-center">
-          <el-button class="bg-white border-white" href="#">
-            <img src="@/assets/images/github.png" alt="" class="h-4 w-4" />
-            <span class="pl-4 text-indigo-410">Github</span>
-          </el-button>
-          <el-button class="bg-white border-white" href="#">
-            <img src="@/assets/images/google.png" alt="" class="h-4 w-4" />
-            <span class="pl-4 text-indigo-410">Google</span>
-          </el-button>
+          <small class="text-90">Sign in</small>
         </div>
       </template>
       <div class="content-center items-center w-full lg:p-6">
@@ -27,7 +17,7 @@
                 <MailIcon class="w-5 h-5 text-gray-210" />
               </div>
             </div>
-            <el-input placeholder="Email" v-model="formData.email" />
+            <el-input placeholder="Email" name="email" v-model="formData.email"/>
           </el-form-item>
           <el-form-item class="mb-6 rounded-md" prop="password">
             <div class="z-10 absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -35,13 +25,11 @@
                 <LockOpenIcon class="w-5 h-5 text-gray-210" />
               </div>
             </div>
-            <el-input type="password" placeholder="Password" v-model="formData.password" />
-          </el-form-item>
-          <el-form-item class="mb-4">
-            <el-checkbox class="text-muted font-normal">Remember me</el-checkbox>
+            <el-input type="password" placeholder="Password" name="password" v-model="formData.password"/>
           </el-form-item>
         </el-form>
         <el-button type="primary" @click="handleLoginClick"> Sign in </el-button>
+        
       </div>
     </el-card>
   </div>
@@ -77,7 +65,7 @@ export default defineComponent({
   setup(props) {
     const store = useStore()
     const form = ref<ElementForm>()
-    const formData = ref({ email: props.email, password: props.password })
+    const formData = ref({ email: "", password: "" })
 
     const handleKeyDown = async () => {
       login()
@@ -89,9 +77,11 @@ export default defineComponent({
 
     const login = async () => {
       try {
-        if (!store.auth.isAuthenticated) {
-          store.auth.actLogin(formData.value)
-        }
+        console.log(formData.value.email);
+        
+        // if (!store.auth.isAuthenticated) {
+        //   store.auth.actLogin(formData.value)
+        // }
       } catch (e) {
         console.log('err::: ', e)
       }

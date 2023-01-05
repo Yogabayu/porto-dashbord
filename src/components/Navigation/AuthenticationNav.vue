@@ -7,7 +7,7 @@
         <img class="h-7.5" alt="..." src="@/assets/images/white.png" />
       </a>
     </div>
-    <div class="relative inline-block lg:hidden w-11">
+    <!-- <div class="relative inline-block lg:hidden w-11">
       <div class="flex items-center">
         <el-dropdown placement="bottom-end" trigger="click" popper-class="auth-menu-popper">
           <MenuIcon class="cursor-pointer h-8 w-8 text-secondary" />
@@ -61,8 +61,9 @@
           </template>
         </el-dropdown>
       </div>
-    </div>
-    <div class="hidden basis-auto lg:flex items-center w-full">
+    </div> -->
+    
+    <!-- <div class="hidden basis-auto lg:flex items-center w-full">
       <div class="flex flex-row mr-auto items-center gap-11 md:h-10 lg:h-14">
         <div>
           <router-link
@@ -111,7 +112,7 @@
           </el-popover>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

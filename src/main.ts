@@ -29,6 +29,7 @@ const createNewApp = () => {
   app.use(AppComponents)
   app.use(createPinia())
   app.use(VueSweetAlert2)
+  app.use(ElementPlus)
 
   app.mount('#app')
   app.config.performance = true

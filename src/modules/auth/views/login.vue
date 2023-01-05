@@ -1,7 +1,7 @@
 <template>
   <div v-if="!isAuthenticated">
     <div
-      class="relative w-full bg-gradient-to-r from-indigo-410 to-indigo-450 py-24 lg:py-32 lg:pt-40"
+      class="relative w-full bg-gradient-to-r from-indigo-410 to-indigo-450 py-24 lg:py-32 lg:pt-20"
     >
       <div
         class="container xl:max-w-5.75xl lg:max-w-4.5xl md:max-w-2.625xl sm:max-w-0.25xl w-full mx-auto px-3.75"
@@ -11,7 +11,7 @@
             <div class="md:flex-9 md:max-w-9/12 lg:flex-8 lg:max-w-2/3">
               <WelcomeLabel />
             </div>
-            <div class="md:flex-6 md:max-w-1/2 lg:flex-5 lg:max-w-5/12">
+            <!-- <div class="md:flex-6 md:max-w-1/2 lg:flex-5 lg:max-w-5/12">
               <h3 class="text-white mt-12 mb-0">
                 <span class="font-bold">You can log in with 3 user types:</span>
               </h3>
@@ -23,7 +23,7 @@
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
       class="container relative xl:max-w-5.75xl lg:max-w-4.5xl md:max-w-2.625xl sm:max-w-0.25xl w-full mx-auto px-3.75 pb-12"
     >
       <div class="relative lg:max-w-5/12 md:max-w-7/12 w-full mx-auto md:px-2 -mt-32">
-        <LoginForm :email="'admin@gmail.com'" />
+        <LoginForm />
         <div class="flex pt-8">
           <div class="text-sm text-left">
             <router-link

@@ -4,21 +4,14 @@
       <div class="text-center lg:text-left text-muted">
         © 2022
         <a
-          href="#"
+          href="https://www.yogabayuap.com"
           class="font-semibold ml-1 text-indigo-410 hover:text-indigo-410-active"
           target="_blank"
-          >Creative Tim</a
-        >
-        &amp;
-        <a
-          href="#"
-          class="font-semibold ml-1 text-indigo-410 hover:text-indigo-410-active"
-          target="_blank"
-          >Updivision</a
+          >Yogabayuap</a
         >
       </div>
     </div>
-    <div class="xl:flex-6 xl:max-w-1/2 mx-auto md:mx-0">
+    <!-- <div class="xl:flex-6 xl:max-w-1/2 mx-auto md:mx-0">
       <div class="flex flex-wrap mb-0 pl-0 justify-center lg:justify-end gap-x-6 gap-y-2">
         <div class="">
           <a href="#" class="text-sm text-dark-lighter hover:text-indigo-410" target="_blank"
@@ -46,7 +39,7 @@
           >
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
