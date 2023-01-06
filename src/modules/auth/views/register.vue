@@ -20,7 +20,7 @@
     <div
       class="container relative xl:max-w-5.75xl lg:max-w-4.5xl md:max-w-2.625xl sm:max-w-0.25xl w-full mx-auto px-4"
     >
-      <div class="relative lg:max-w-1/2 md:max-w-2/3 mx-auto md:px-1.5 -mt-32 mb-20">
+      <div class="relative lg:max-w-3/4 md:max-w-2/3 mx-auto md:px-1.5 -mt-32 mb-20">
         <RegisterForm />
       </div>
     </div>

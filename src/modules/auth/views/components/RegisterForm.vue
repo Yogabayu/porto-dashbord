@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
     <el-card class="bg-secondary text-center">
-      <div class="content-center items-center w-full lg:p-6">
+      <div class="content-center items-center w-full lg:p-4">
         <div class="text-muted text-center mb-5">
           <small> Sign up with credentials </small>
         </div>
