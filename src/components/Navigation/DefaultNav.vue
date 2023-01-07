@@ -12,7 +12,7 @@
           class="transition-all duration-300 mr-auto sm:mr-4 sm:transform-none sm:block overflow-hidden"
           :class="{ 'w-0 sm:w-full': isSearchOpen, 'w-full': !isSearchOpen }"
         >
-          <SearchBar @close-search="setSearchOpen(true)" />
+          <!-- <SearchBar @close-search="setSearchOpen(true)" /> -->
         </div>
         <div
           class="transition-all duration-300 flex flex-1 flex-row ml-0 md:ml-auto items-center mt-0 text-slate-50 gap-7.25 md:gap-7.5"
@@ -36,7 +36,7 @@
               />
             </div>
           </div>
-          <div class="relative inline-block pt-1">
+          <!-- <div class="relative inline-block pt-1">
             <el-dropdown
               placement="bottom-end"
               trigger="click"
@@ -96,8 +96,8 @@
                 </el-dropdown-menu>
               </template>
             </el-dropdown>
-          </div>
-          <div class="relative inline-block pt-1">
+          </div> -->
+          <!-- <div class="relative inline-block pt-1">
             <el-popover
               placement="bottom-end"
               trigger="click"
@@ -218,7 +218,7 @@
                 </div>
               </div>
             </el-popover>
-          </div>
+          </div> -->
         </div>
         <div
           class="flex flex-none flex-row ml-auto md:ml-0 pl-7.5"

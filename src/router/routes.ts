@@ -34,18 +34,18 @@ const ComponentLayout = () => import('components/ComponentLayout/index.vue')
 
 
 const routes = [
-  // {
-  //   path: '/',
-  //   component: Dashboard,
-  //   name: 'Dashboard',
-  //   meta: {
-  //     title: 'Dashboard',
-  //     icon: HomeIcon,
-  //     color: 'text-indigo-410',
-  //     requiresAuth: true,
-  //     parentPath: 'Home'
-  //   },
-  // },
+  {
+    path: '/dashboard',
+    component: Dashboard,
+    name: 'Dashboard',
+    meta: {
+      title: 'Dashboard',
+      icon: HomeIcon,
+      color: 'text-indigo-410',
+      requiresAuth: true,
+      parentPath: 'Home'
+    },
+  },
   {
     path: '/components/:componentItem?',
     component: ComponentLayout,
@@ -180,6 +180,15 @@ const routes = [
       requiresAuth: false,
     },
   },
+  // {
+    
+  //   path: '/',
+  //   component: Login,
+  //   name: 'login',
+  //   meta: {
+  //     requiresAuth: false,
+  //   },
+  // },
   {
     
     path: '/',

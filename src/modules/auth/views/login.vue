@@ -35,7 +35,7 @@
     >
       <div class="relative lg:max-w-5/12 md:max-w-7/12 w-full mx-auto md:px-2 -mt-32">
         <LoginForm />
-        <div class="flex pt-8">
+        <!-- <div class="flex pt-8">
           <div class="text-sm text-left">
             <router-link
               to="/forgot-password"
@@ -49,7 +49,7 @@
               Create new account
             </router-link>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
